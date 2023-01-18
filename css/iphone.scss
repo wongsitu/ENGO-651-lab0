@@ -1,0 +1,65 @@
+$border-3: 3px;
+
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border-3 {
+  border-width: $border-3 !important;
+}
+
+#home--hero__container {
+  background: linear-gradient(
+    rgba(24, 27, 50, 0.3) 0%,
+    rgba(28, 28, 35, 0.3) 0%
+  ), url('../images/home-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.about {
+  &--background__container {
+    background: linear-gradient(
+      rgba(24, 27, 50, 0.3) 0%,
+      rgba(28, 28, 35, 0.3) 0%
+    ), url('../images/about-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  &--body__container {
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 72px;
+    overflow: auto;
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 1s; /* Firefox < 16 */
+          -ms-animation: fadein 1s; /* Internet Explorer */
+          -o-animation: fadein 1s; /* Opera < 12.1 */
+              animation: fadein 1s;
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
