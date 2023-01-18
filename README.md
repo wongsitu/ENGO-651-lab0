@@ -17,11 +17,11 @@ The project was built using VSCode. To run the project download the "Live Server
 - [x] In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 
 ## Description
-The following project is a personal website. It contains 4 html files: ```index.html```,```about.html```,```portfolio.html``` and ```contact.html```
+- The following project is a personal website. It contains 4 html files: ```index.html```,```about.html```,```portfolio.html``` and ```contact.html```
 
-For the SCSS requirements, browsers cannot read natively those files. These need to be compiled first. To do that I used the "Live Sass Compiler" extension
+- For the SCSS requirements, browsers cannot read natively those files. These need to be compiled first. To do that I used the "Live Sass Compiler" extension
 
-Media queries were included using a media attribute in each of the stylesheets link tags. For exmaple
+- Media queries were included using a media attribute in each of the stylesheets link tags. For exmaple
 ```html
 <link rel="stylesheet" href="./css/iphone.css" type="text/css" />
 <link rel="stylesheet" media="only screen and (min-device-width: 480px)" href="./css/ipad.css" type="text/css" />
