@@ -10,6 +10,16 @@ $border-3: 3px;
   border-width: $border-3 !important;
 }
 
+#navbarNavDropdown {
+  a:hover {
+    text-decoration-line: underline;  
+  }
+
+  a:active {
+    font-weight: bold;
+  }
+}
+
 #home--hero__container {
   background: linear-gradient(
     rgba(24, 27, 50, 0.3) 0%,

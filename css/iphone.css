@@ -8,6 +8,14 @@
   border-width: 3px !important;
 }
 
+#navbarNavDropdown a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+#navbarNavDropdown a:active {
+  font-weight: bold;
+}
+
 #home--hero__container {
   background: linear-gradient(rgba(24, 27, 50, 0.3) 0%, rgba(28, 28, 35, 0.3) 0%), url("../images/home-background.jpg") no-repeat center center fixed;
   background-size: cover;
