@@ -16,7 +16,7 @@
           text-decoration-line: underline;
 }
 
-#home--hero__container {
+.home--hero__container {
   background: linear-gradient(rgba(24, 27, 50, 0.3) 0%, rgba(28, 28, 35, 0.3) 0%), url("../images/home-background.jpg") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   background: linear-gradient(rgba(24, 27, 50, 0.3) 0%, rgba(28, 28, 35, 0.3) 0%), url("../images/about-background.jpg") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: unset;
 }
 .about--body__container {
   background: rgba(0, 0, 0, 0.4);

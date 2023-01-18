@@ -1,0 +1,29 @@
+.home--hero__shadow {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 16px 16px rgba(0, 0, 0, 0.4);
+
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.about {
+  &--background__container {
+    height: 100vh;
+  }
+  &--body__container {
+    padding-top: 72px;
+  }
+}
+
+.portfolio--hero__image {
+  background: linear-gradient(
+    rgba(24, 27, 50, 0.5) 0%,
+    rgba(28, 28, 35, 0.5) 0%
+  ), url('../images/header-photo.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+}

@@ -24,6 +24,6 @@ The project was built using VSCode. To run the project download the "Live Server
 - Media queries were included using a media attribute in each of the stylesheets link tags. For exmaple
 ```html
 <link rel="stylesheet" href="./css/iphone.css" type="text/css" />
-<link rel="stylesheet" media="only screen and (min-device-width: 480px)" href="./css/ipad.css" type="text/css" />
+<link rel="stylesheet" media="only screen and (min-device-width: 480px)" href="./css/ipad.scss" type="text/css" />
 ```
-In this case, if the viewport is larger than 480px, the ```/css/ipad.css``` stylesheet will take over.
+In this case, if the viewport is larger than 480px, the ```/css/ipad.scss``` stylesheet will take over.

@@ -21,7 +21,7 @@ $border-3: 3px;
   }
 }
 
-#home--hero__container {
+.home--hero__container {
   background: linear-gradient(
     rgba(24, 27, 50, 0.3) 0%,
     rgba(28, 28, 35, 0.3) 0%
@@ -39,7 +39,7 @@ $border-3: 3px;
     ), url('../images/about-background.jpg') no-repeat center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: unset;
   }
   
   &--body__container {
