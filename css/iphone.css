@@ -8,12 +8,12 @@
   border-width: 3px !important;
 }
 
-#navbarNavDropdown a:hover {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+#navbarNavDropdown a:hover, #navbarNavDropdown a:active {
+  font-weight: bold;
 }
 #navbarNavDropdown a:active {
-  font-weight: bold;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 #home--hero__container {

@@ -12,11 +12,12 @@ $border-3: 3px;
 
 #navbarNavDropdown {
   a:hover {
-    text-decoration-line: underline;  
+    font-weight: bold;
   }
 
-  a:active {
-    font-weight: bold;
+  & a:active {
+    @extend :hover;
+    text-decoration-line: underline;  
   }
 }
 
